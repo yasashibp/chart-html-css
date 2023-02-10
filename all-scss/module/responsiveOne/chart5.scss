@@ -1,0 +1,125 @@
+@mixin chart5res2(){
+.clock-bars {
+    .container {
+    // CHARTNYA
+    .chart {
+        .container {
+            .content {
+                width: 370px;
+                .clock-info{
+                    gap: 0px;
+                        .clock{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            position: relative;
+                            p{
+                                width: 70px;
+                                font-size: 11px;
+                            }
+                            h1{
+                                font-size: 25px;
+                            }
+                        }
+                        .clock.green{
+                            h1{
+                                color: #AFD233;
+                            }
+                                width: 114px;
+                                bottom: -49px;
+                        }
+                        .clock.blue{
+                            h1{
+                                color: #00C5F2;
+                            }
+                                bottom: -50px;
+                        }
+                        .clock.red{
+                            h1{
+                                color: #E6181C;
+                            }
+                            bottom: 20px;
+                        }
+                    .title{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .icon{
+                            h1{
+                                font-weight: 700;
+                                font-size: 42px;
+                            }
+                            p{
+                            text-align: center;
+                            width: 106px;
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #686868;
+                            }
+                            img{
+                               width: 25px; 
+                               height: 25px;
+                            }
+                        }
+                    }
+                }
+
+                .chart-box {
+                    display: flex;
+                    align-items: flex-end;
+                    gap: 20px;
+
+                    .chartB {
+                        width: 65px;
+                        span {
+                            font-size: 23px;
+                        }
+                    }
+
+                    .first {
+                        height: 20px;
+                        background: #AFD233;
+                        span{
+                            color: #919191;
+                        }
+                    }
+
+                    .center {
+                        height: 110px;
+                        background: #00C5F2;
+                    }
+
+                    .over {
+                        height: 180px;
+                        background: #E6181C;
+                    }
+                }
+
+            }
+
+            .spec-chart {
+                width: 370px;
+                gap: 21px;
+
+                span {
+                        font-size: 14px;
+                }
+
+                span:first-child {
+                    width: 318px;
+                    text-align: center;
+                }
+
+                span:nth-child(n+2) {
+                    width: 120px;
+                }
+
+                margin-bottom: 30px;
+            }
+
+        }
+    }
+
+        }
+}
+}

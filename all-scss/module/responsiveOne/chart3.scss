@@ -1,0 +1,101 @@
+@mixin chart3(){
+.nights-concept{
+    .container{
+        .title {
+            h1 {
+                font-weight: 500;
+                font-size: 32px;
+            }
+        }
+        h3{
+            width: 184px;
+            font-size: 28px;
+        }
+        .content{
+            gap: 67px;
+        }
+    }
+}
+}
+
+@mixin chart3res2(){
+    .nights-concept{
+    width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .title {
+            margin-bottom: 80px;
+            h1 {
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+        h3{
+            width: 180px;
+            font-size: 20px;
+        }
+        .content{
+            gap: 4px;
+            .circle-content{
+                .circle{
+                        width: 120px;
+                        height: 120px;
+                        p:first-child{
+                            font-weight: 500;
+                            font-size: 46px;
+                            display: flex;
+                            span{
+                                font-size: 32px;
+                            }
+                        }
+                        p:last-child{
+                            font-size: 20px;
+                            margin-top: -6px;
+                        }
+                }
+                .txt{
+                    margin-bottom: 10px;
+                }
+                .info{
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                
+            }
+            .circle-content.red{
+                .circle{background: #EF2A24;}
+                .txt{
+                    width: 191px;
+                    font-size: 16px;
+                }
+                .info{
+                    width: 191px;
+                    text-align: center;
+                }
+            }
+            .circle-content.green{
+                .circle{background-color: #A1C132;}
+                .txt{
+                    width: 105px;
+                    font-size: 25px;
+                }
+                .info{
+                    width: 168px;
+                    text-align: center;
+                    font-size: 13px;
+                }
+            }
+        }
+        .price{
+            font-size: 8px;
+        }
+    }
+}
+}

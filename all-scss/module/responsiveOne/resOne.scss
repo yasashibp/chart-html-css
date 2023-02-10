@@ -1,0 +1,18 @@
+@use 'chart1' as ch1;
+@use 'chart2' as ch2;
+@use 'chart3' as ch3;
+@use 'chart4' as ch4;
+@use 'chart5' as ch5;
+@media only screen and (min-width: 650px) and (max-width: 873px){
+    @include ch1.chart1;
+    @include ch2.chart2;
+    @include ch3.chart3;
+}
+
+@media only screen and (min-width: 380px) and (max-width: 650px){
+    @include ch1.chart1res2;
+    @include ch2.chart2res2;
+    @include ch3.chart3res2;
+    @include ch4.chart4res2;
+    @include ch5.chart5res2;
+}

@@ -1,0 +1,89 @@
+
+@mixin chart1(){
+.summer-chart{
+    .container{
+        .title{
+            h1{
+                font-size: 38px;
+            }
+            div{
+                .icon{
+                    z-index: 1;
+                    img{
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+}
+
+@mixin chart1res2(){
+    
+
+.summer-chart{
+    .container{
+        .title{
+            h1{
+                font-size: 22px;
+            }
+            span{
+                margin-top: -1px;
+            }
+            
+            div{
+                .icon{
+                    z-index: 1;
+                    img{
+                        width: 55px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    // CHARTNYA
+    .chart{
+        .container{
+            .content{
+                width: 380px;
+                .chart-box{
+                    gap: 19px;
+                    .chartB{       
+                        width: 65px;
+                        span{
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+            .spec-chart{
+                    width: 377px;
+                    gap: 0px;
+                    span{
+                        display: flex;
+                        justify-content: flex-end;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                    span:first-child{
+                        width: 279px;
+                    }
+                    span:nth-child(n+2){
+                        width: 120px;
+                    }
+                    margin-bottom: 30px;
+            }
+            .price{
+                font-size: 8px;
+            }
+        }
+    }
+
+
+}
+}

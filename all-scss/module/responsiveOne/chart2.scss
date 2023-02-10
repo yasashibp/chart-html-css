@@ -1,0 +1,85 @@
+@mixin chart2(){
+.winter-chart {
+    .container {
+        .title {
+            h1 {
+                font-size: 38px;
+            }
+            div {
+                .icon {
+                    z-index: 1;
+
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+@mixin chart2res2(){
+    .winter-chart {
+    .container {
+        .title {
+            h1 {
+                color: #00B4EF;
+                z-index: 5;
+                font-size: 22px;
+            }
+            span {
+                margin-top: -1px;
+            }
+            div {
+                .icon {
+                    z-index: 1;
+                    img {
+                        width: 55px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    // CHARTNYA
+    .chart {
+        .container {
+            .content {
+                width: 380px;
+                .chart-box {
+                    .chartB {
+                        width: 65px;
+
+                        span {
+                            font-size: 23px;
+                        }
+                    }
+
+                    .center {
+                        height: 100px;
+                        background:#00B5EF;
+                    }
+
+                }
+            }
+
+            .spec-chart {
+                width: 380px;
+                span {
+                    width: 190px;
+                    font-size: 14px;
+                }
+            }
+
+            .price {
+                font-size: 8px;
+            }
+        }
+    }
+
+
+}
+}
