@@ -468,6 +468,65 @@ html, body {
   align-items: center;
   width: 650px;
 }
+.clock-bars .container .chart .container .content .clock-info {
+  display: flex;
+  gap: 68px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.clock-bars .container .chart .container .content .clock-info .clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.clock-bars .container .chart .container .content .clock-info .clock p {
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+  color: #686868;
+}
+.clock-bars .container .chart .container .content .clock-info .clock.green {
+  width: 94px;
+  position: relative;
+  bottom: -50px;
+}
+.clock-bars .container .chart .container .content .clock-info .clock.green h1 {
+  color: #AFD233;
+}
+.clock-bars .container .chart .container .content .clock-info .clock.blue {
+  bottom: -50px;
+}
+.clock-bars .container .chart .container .content .clock-info .clock.blue h1 {
+  color: #00C5F2;
+}
+.clock-bars .container .chart .container .content .clock-info .clock.red {
+  bottom: 20px;
+}
+.clock-bars .container .chart .container .content .clock-info .clock.red h1 {
+  color: #E6181C;
+}
+.clock-bars .container .chart .container .content .clock-info .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock-bars .container .chart .container .content .clock-info .title .icon h1 {
+  font-weight: 700;
+  font-size: 42px;
+}
+.clock-bars .container .chart .container .content .clock-info .title .icon p {
+  text-align: center;
+  width: 106px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #686868;
+}
+.clock-bars .container .chart .container .content .clock-info .title .icon img {
+  width: 46px;
+  height: 46px;
+}
 .clock-bars .container .chart .container .content .chart-box {
   display: flex;
   align-items: flex-end;
@@ -516,7 +575,7 @@ html, body {
   color: #919191;
 }
 .clock-bars .container .chart .container .content .chart-box .center {
-  height: 170px;
+  height: 110px;
   background: #00C5F2;
 }
 .clock-bars .container .chart .container .content .chart-box .over {

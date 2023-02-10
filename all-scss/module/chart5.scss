@@ -25,6 +25,67 @@
                 flex-direction: column;
                 align-items: center;
                 width: 650px;
+                .clock-info{
+                    display: flex;
+                    gap: 68px;
+                    margin-left: auto;
+                    margin-right: 20px;
+                        .clock{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            position: relative;
+                            p{
+                                width: 100px;
+                                text-align: center;
+                                font-weight: 600;
+                                font-size: 17px;
+                                color: #686868;
+                            }
+                        }
+                        .clock.green{
+                            h1{
+                                color: #AFD233;
+                            }
+                                width: 94px;
+                                position: relative;
+                                bottom: -50px;
+                        }
+                        .clock.blue{
+                            h1{
+                                color: #00C5F2;
+                            }
+                                bottom: -50px;
+                        }
+                        .clock.red{
+                            h1{
+                                color: #E6181C;
+                            }
+                            bottom: 20px;
+                        }
+                    .title{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .icon{
+                            h1{
+                                font-weight: 700;
+                                font-size: 42px;
+                            }
+                            p{
+                            text-align: center;
+                            width: 106px;
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #686868;
+                            }
+                            img{
+                               width: 46px; 
+                               height: 46px;
+                            }
+                        }
+                    }
+                }
 
                 .chart-box {
                     display: flex;
