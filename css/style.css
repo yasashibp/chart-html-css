@@ -280,4 +280,277 @@ html, body {
   text-align: center;
 }
 
+.nights-concept {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nights-concept .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nights-concept .container .title {
+  margin-bottom: 80px;
+}
+.nights-concept .container .title h1 {
+  font-weight: 500;
+  font-size: 42px;
+}
+.nights-concept .container h3 {
+  text-align: center;
+  width: 290px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #02BDF2;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+.nights-concept .container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+.nights-concept .container .content .circle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nights-concept .container .content .circle-content .circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 24px;
+}
+.nights-concept .container .content .circle-content .circle p:first-child {
+  font-weight: 500;
+  font-size: 70px;
+  display: flex;
+}
+.nights-concept .container .content .circle-content .circle p:first-child span {
+  font-size: 32px;
+}
+.nights-concept .container .content .circle-content .circle p:last-child {
+  font-size: 32px;
+  margin-top: -15px;
+}
+.nights-concept .container .content .circle-content .txt {
+  margin-bottom: 10px;
+}
+.nights-concept .container .content .circle-content .info {
+  font-weight: 400;
+  font-size: 16px;
+}
+.nights-concept .container .content .circle-content.red .circle {
+  background: #EF2A24;
+}
+.nights-concept .container .content .circle-content.red .txt {
+  width: 240px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #EF2A24;
+}
+.nights-concept .container .content .circle-content.red .info {
+  width: 270px;
+  text-align: center;
+}
+.nights-concept .container .content .circle-content.green .circle {
+  background-color: #A1C132;
+}
+.nights-concept .container .content .circle-content.green .txt {
+  width: 151px;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #A1C132;
+}
+.nights-concept .container .content .circle-content.green .info {
+  width: 168px;
+  text-align: center;
+}
+.nights-concept .container .price {
+  font-weight: 400;
+  font-size: 12px;
+  color: #939393;
+  text-align: center;
+}
+
+.fill-tank .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.fill-tank .container .circle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fill-tank .container .circle-content .circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 24px;
+}
+.fill-tank .container .circle-content .circle .icon {
+  width: 47px;
+  height: 22px;
+  border: 3px solid #FFFFFF;
+  border-radius: 2px;
+}
+.fill-tank .container .circle-content .circle .txt {
+  font-weight: 500;
+  font-size: 52px;
+}
+.fill-tank .container .circle-content .circle .info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+.fill-tank .container .circle-content .image img {
+  width: auto;
+  height: 176px;
+}
+.fill-tank .container .circle-content.green .circle {
+  background-color: #A1C132;
+}
+.fill-tank .container .circle-content.green .circle .info {
+  width: 120px;
+}
+.fill-tank .container .circle-content.red .circle {
+  background: #EF2A24;
+}
+.fill-tank .container .circle-content.red .circle .info {
+  width: 115px;
+}
+
+.clock-bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  height: 100vh;
+}
+.clock-bars .container .chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock-bars .container .chart .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clock-bars .container .chart .container .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 650px;
+}
+.clock-bars .container .chart .container .content .chart-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 70px;
+}
+.clock-bars .container .chart .container .content .chart-box .kwh {
+  width: 90px;
+  display: flex;
+  transform: rotate(35deg);
+  margin-bottom: 50px;
+}
+.clock-bars .container .chart .container .content .chart-box .kwh .cent {
+  transform: rotate(-35deg);
+  margin-top: -4px;
+  font-size: 53px;
+  font-weight: 600;
+}
+.clock-bars .container .chart .container .content .chart-box .kwh .cent-line {
+  width: 1px;
+  height: 76px;
+  /* margin: 0 6px; */
+  background-color: black;
+}
+.clock-bars .container .chart .container .content .chart-box .kwh .kwh-text {
+  transform: rotate(-35deg);
+  margin-top: 38px;
+  margin-left: 11px;
+}
+.clock-bars .container .chart .container .content .chart-box .chartB {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100px;
+}
+.clock-bars .container .chart .container .content .chart-box .chartB span {
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.clock-bars .container .chart .container .content .chart-box .first {
+  height: 20px;
+  background: #AFD233;
+}
+.clock-bars .container .chart .container .content .chart-box .first span {
+  color: #919191;
+}
+.clock-bars .container .chart .container .content .chart-box .center {
+  height: 170px;
+  background: #00C5F2;
+}
+.clock-bars .container .chart .container .content .chart-box .over {
+  height: 180px;
+  background: #E6181C;
+}
+.clock-bars .container .chart .container .content .line {
+  width: 100%;
+  height: 1px;
+  opacity: 0.8;
+  margin: 21px 0 25px;
+  background-color: black;
+}
+.clock-bars .container .chart .container .spec-chart {
+  display: flex;
+  width: 650px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 57px;
+  margin-bottom: 30px;
+}
+.clock-bars .container .chart .container .spec-chart span {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  color: #818181;
+  font-size: 20px;
+}
+.clock-bars .container .chart .container .spec-chart span:first-child {
+  width: 283px;
+  text-align: center;
+}
+.clock-bars .container .chart .container .spec-chart span:nth-child(n+2) {
+  width: 120px;
+}
+
 /*# sourceMappingURL=style.css.map */
