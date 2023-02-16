@@ -1,4 +1,5 @@
 .clock-bars {
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +25,12 @@
                 justify-content: center;
                 flex-direction: column;
                 align-items: center;
-                width: 650px;
+                width: 450px;
                 .clock-info{
                     display: flex;
-                    gap: 68px;
+                    gap: 16px;
                     margin-left: auto;
-                    margin-right: 20px;
+                    margin-right: 5px;
                         .clock{
                             display: flex;
                             flex-direction: column;
@@ -44,12 +45,12 @@
                             }
                         }
                         .clock.green{
+                            width: 94px;
+                            position: relative;
+                            bottom: -50px;
                             h1{
                                 color: #AFD233;
                             }
-                                width: 94px;
-                                position: relative;
-                                bottom: -50px;
                         }
                         .clock.blue{
                             h1{
@@ -80,8 +81,8 @@
                             color: #686868;
                             }
                             img{
-                               width: 46px; 
-                               height: 46px;
+                               width: 28px; 
+                               height: 28px;
                             }
                         }
                     }
@@ -90,7 +91,7 @@
                 .chart-box {
                     display: flex;
                     align-items: flex-end;
-                    gap: 70px;
+                    gap: 22px;
 
                     .kwh {
                         width: 90px;
@@ -123,7 +124,7 @@
                         display: flex;
                         justify-content: center;
                         align-items: flex-end;
-                        width: 100px;
+                        width: 90px;
 
                         span {
                             font-weight: 500;
@@ -147,7 +148,7 @@
                     }
 
                     .over {
-                        height: 180px;
+                        height: 175px;
                         background: #E6181C;
                     }
                 }
@@ -156,33 +157,33 @@
                     width: 100%;
                     height: 1px;
                     opacity: .8;
-                    margin: 21px 0 25px;
+                    margin: 21px 0 20px;
                     background-color: black;
                 }
             }
 
             .spec-chart {
                 display: flex;
-                width: 650px;
+                width: 450px;
                 align-items: center;
                 justify-content: flex-start;
-                gap: 57px;
 
                 span {
                         display: flex;
                         justify-content: flex-end;
                         font-weight: 500;
                         color: #818181;
-                        font-size: 20px;
+                        font-size: 16px;
                 }
 
                 span:first-child {
-                    width: 283px;
+                    width: 226px;
                     text-align: center;
                 }
 
                 span:nth-child(n+2) {
                     width: 120px;
+                    margin-right: 10px;
                 }
 
                 margin-bottom: 30px;

@@ -22,7 +22,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
+  max-width: 450px;
   height: 100vh;
 }
 .summer-chart .container .title {
@@ -30,16 +30,16 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .summer-chart .container .title h1 {
   color: #E9521B;
   z-index: 5;
-  font-size: 46px;
+  font-size: 30px;
 }
 .summer-chart .container .title span {
   position: relative;
-  margin-top: -10px;
+  margin-top: -2px;
   margin-left: 8px;
   font-weight: 300;
 }
@@ -53,7 +53,7 @@ html, body {
   z-index: 1;
 }
 .summer-chart .container .title div .icon img {
-  width: 90px;
+  width: 50px;
 }
 .summer-chart .chart {
   display: flex;
@@ -64,18 +64,19 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 450px;
 }
 .summer-chart .chart .container .content {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 650px;
+  width: 450px;
 }
 .summer-chart .chart .container .content .chart-box {
   display: flex;
   align-items: flex-end;
-  gap: 70px;
+  gap: 19px;
 }
 .summer-chart .chart .container .content .chart-box .kwh {
   width: 90px;
@@ -104,7 +105,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 100px;
+  width: 90px;
 }
 .summer-chart .chart .container .content .chart-box .chartB span {
   font-weight: 500;
@@ -128,26 +129,27 @@ html, body {
   width: 100%;
   height: 1px;
   opacity: 0.8;
-  margin: 21px 0 25px;
+  margin: 21px 0 20px;
   background-color: black;
 }
 .summer-chart .chart .container .spec-chart {
   display: flex;
-  width: 650px;
+  width: 450px;
   align-items: center;
   justify-content: flex-start;
-  gap: 57px;
-  margin-bottom: 30px;
+  gap: 16px;
+  margin-bottom: 20px;
 }
 .summer-chart .chart .container .spec-chart span {
   display: flex;
   justify-content: flex-end;
+  font-size: 14px;
 }
 .summer-chart .chart .container .spec-chart span:first-child {
-  width: 280px;
+  width: 270px;
 }
 .summer-chart .chart .container .spec-chart span:nth-child(n+2) {
-  width: 120px;
+  width: 140px;
 }
 .summer-chart .chart .container .price {
   font-weight: 400;
@@ -161,7 +163,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
+  max-width: 450px;
   height: 100vh;
 }
 .winter-chart .container .title {
@@ -169,16 +171,16 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .winter-chart .container .title h1 {
   color: #00B4EF;
   z-index: 5;
-  font-size: 46px;
+  font-size: 30px;
 }
 .winter-chart .container .title span {
   position: relative;
-  margin-top: -10px;
+  margin-top: -2px;
   margin-left: 8px;
   font-weight: 300;
 }
@@ -192,7 +194,7 @@ html, body {
   z-index: 1;
 }
 .winter-chart .container .title div .icon img {
-  width: 90px;
+  width: 50px;
 }
 .winter-chart .chart {
   display: flex;
@@ -203,13 +205,14 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 450px;
 }
 .winter-chart .chart .container .content {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 650px;
+  width: 450px;
 }
 .winter-chart .chart .container .content .chart-box {
   display: flex;
@@ -258,20 +261,21 @@ html, body {
   width: 100%;
   height: 1px;
   opacity: 0.8;
-  margin: 21px 0 25px;
+  margin: 21px 0 20px;
   background-color: black;
 }
 .winter-chart .chart .container .spec-chart {
   display: flex;
-  width: 650px;
+  width: 450px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .winter-chart .chart .container .spec-chart span {
   display: flex;
   justify-content: flex-end;
-  width: 200px;
+  width: 180px;
+  font-size: 14px;
 }
 .winter-chart .chart .container .price {
   font-weight: 400;
@@ -281,7 +285,7 @@ html, body {
 }
 
 .nights-concept {
-  width: 100%;
+  max-width: 450px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -294,17 +298,17 @@ html, body {
   flex-direction: column;
 }
 .nights-concept .container .title {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .nights-concept .container .title h1 {
   font-weight: 500;
-  font-size: 42px;
+  font-size: 28px;
 }
 .nights-concept .container h3 {
   text-align: center;
-  width: 290px;
+  width: 200px;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
   color: #02BDF2;
   margin-left: auto;
   margin-right: 0px;
@@ -314,7 +318,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 70px;
   margin-bottom: 40px;
 }
 .nights-concept .container .content .circle-content {
@@ -324,8 +328,8 @@ html, body {
   align-items: center;
 }
 .nights-concept .container .content .circle-content .circle {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 200px;
   display: flex;
   flex-direction: column;
@@ -336,15 +340,15 @@ html, body {
 }
 .nights-concept .container .content .circle-content .circle p:first-child {
   font-weight: 500;
-  font-size: 70px;
+  font-size: 52px;
   display: flex;
 }
 .nights-concept .container .content .circle-content .circle p:first-child span {
   font-size: 32px;
 }
 .nights-concept .container .content .circle-content .circle p:last-child {
-  font-size: 32px;
-  margin-top: -15px;
+  font-size: 24px;
+  margin-top: 0px;
 }
 .nights-concept .container .content .circle-content .txt {
   margin-bottom: 10px;
@@ -357,29 +361,31 @@ html, body {
   background: #EF2A24;
 }
 .nights-concept .container .content .circle-content.red .txt {
-  width: 240px;
+  width: 160px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #EF2A24;
 }
 .nights-concept .container .content .circle-content.red .info {
-  width: 270px;
+  width: 160px;
   text-align: center;
+  font-size: 16px;
 }
 .nights-concept .container .content .circle-content.green .circle {
   background-color: #A1C132;
 }
 .nights-concept .container .content .circle-content.green .txt {
-  width: 151px;
+  width: 160px;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   color: #A1C132;
 }
 .nights-concept .container .content .circle-content.green .info {
-  width: 168px;
+  width: 160px;
   text-align: center;
+  font-size: 16px;
 }
 .nights-concept .container .price {
   font-weight: 400;
@@ -388,8 +394,12 @@ html, body {
   text-align: center;
 }
 
+.fill-tank {
+  max-width: 450px;
+}
 .fill-tank .container {
   display: flex;
+  width: 450px;
   justify-content: center;
   align-items: center;
   gap: 60px;
@@ -401,8 +411,8 @@ html, body {
   justify-content: center;
 }
 .fill-tank .container .circle-content .circle {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 200px;
   display: flex;
   flex-direction: column;
@@ -412,20 +422,20 @@ html, body {
   margin-bottom: 24px;
 }
 .fill-tank .container .circle-content .circle .icon img {
-  width: 50px;
+  width: 45px;
 }
 .fill-tank .container .circle-content .circle .txt {
   font-weight: 500;
-  font-size: 52px;
+  font-size: 46px;
 }
 .fill-tank .container .circle-content .circle .info {
   text-align: center;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
 }
 .fill-tank .container .circle-content .image img {
   width: auto;
-  height: 176px;
+  height: 170px;
 }
 .fill-tank .container .circle-content.green .circle {
   background-color: #A1C132;
@@ -437,10 +447,11 @@ html, body {
   background: #EF2A24;
 }
 .fill-tank .container .circle-content.red .circle .info {
-  width: 115px;
+  width: 89px;
 }
 
 .clock-bars {
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -463,13 +474,13 @@ html, body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 650px;
+  width: 450px;
 }
 .clock-bars .container .chart .container .content .clock-info {
   display: flex;
-  gap: 68px;
+  gap: 16px;
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .clock-bars .container .chart .container .content .clock-info .clock {
   display: flex;
@@ -521,13 +532,13 @@ html, body {
   color: #686868;
 }
 .clock-bars .container .chart .container .content .clock-info .title .icon img {
-  width: 46px;
-  height: 46px;
+  width: 28px;
+  height: 28px;
 }
 .clock-bars .container .chart .container .content .chart-box {
   display: flex;
   align-items: flex-end;
-  gap: 70px;
+  gap: 22px;
 }
 .clock-bars .container .chart .container .content .chart-box .kwh {
   width: 90px;
@@ -556,7 +567,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 100px;
+  width: 90px;
 }
 .clock-bars .container .chart .container .content .chart-box .chartB span {
   font-weight: 500;
@@ -576,22 +587,21 @@ html, body {
   background: #00C5F2;
 }
 .clock-bars .container .chart .container .content .chart-box .over {
-  height: 180px;
+  height: 175px;
   background: #E6181C;
 }
 .clock-bars .container .chart .container .content .line {
   width: 100%;
   height: 1px;
   opacity: 0.8;
-  margin: 21px 0 25px;
+  margin: 21px 0 20px;
   background-color: black;
 }
 .clock-bars .container .chart .container .spec-chart {
   display: flex;
-  width: 650px;
+  width: 450px;
   align-items: center;
   justify-content: flex-start;
-  gap: 57px;
   margin-bottom: 30px;
 }
 .clock-bars .container .chart .container .spec-chart span {
@@ -599,38 +609,21 @@ html, body {
   justify-content: flex-end;
   font-weight: 500;
   color: #818181;
-  font-size: 20px;
+  font-size: 16px;
 }
 .clock-bars .container .chart .container .spec-chart span:first-child {
-  width: 283px;
+  width: 226px;
   text-align: center;
 }
 .clock-bars .container .chart .container .spec-chart span:nth-child(n+2) {
   width: 120px;
+  margin-right: 10px;
 }
 
 @media only screen and (min-width: 650px) and (max-width: 873px) {
-  .summer-chart .container .title h1 {
-    font-size: 38px;
-  }
-  .summer-chart .container .title div .icon {
-    z-index: 1;
-  }
-  .summer-chart .container .title div .icon img {
-    width: 70px;
-  }
-  .winter-chart .container .title h1 {
-    font-size: 38px;
-  }
-  .winter-chart .container .title div .icon {
-    z-index: 1;
-  }
-  .winter-chart .container .title div .icon img {
-    width: 70px;
-  }
   .nights-concept .container .title h1 {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
   }
   .nights-concept .container h3 {
     width: 184px;
@@ -640,7 +633,7 @@ html, body {
     gap: 67px;
   }
 }
-@media only screen and (min-width: 380px) and (max-width: 650px) {
+@media only screen and (min-width: 280px) and (max-width: 450px) {
   .summer-chart .container .title h1 {
     font-size: 22px;
   }
@@ -844,6 +837,8 @@ html, body {
     width: 370px;
   }
   .clock-bars .container .chart .container .content .clock-info {
+    gap: 20px;
+    margin-right: 20px;
     gap: 0px;
   }
   .clock-bars .container .chart .container .content .clock-info .clock {

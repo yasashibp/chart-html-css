@@ -1,6 +1,8 @@
 .fill-tank{
+    max-width: 450px;
     .container{
         display: flex;
+        width: 450px;
         justify-content: center;
         align-items: center;
         gap: 60px;
@@ -10,8 +12,8 @@
             align-items: center;
             justify-content:center ;
             .circle{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                     border-radius: 200px;
                     display: flex;
                     flex-direction: column;
@@ -21,23 +23,23 @@
                     margin-bottom: 24px;
                     .icon{
                         img{
-                            width: 50px;
+                            width: 45px;
                         }
                     }
                     .txt{
                         font-weight: 500;
-                        font-size: 52px;
+                        font-size: 46px;
                     }
                     .info{
                         text-align: center;
                         font-weight: 400;
-                        font-size: 16px;
+                        font-size: 13px;
                     }
             }
             .image{
                 img{
                     width: auto;
-                    height: 176px;
+                    height: 170px;
                 }
             }
         }
@@ -50,7 +52,7 @@
         .circle-content.red{
             .circle{
                 background: #EF2A24;
-                .info{width: 115px;}
+                .info{width: 89px;}
             }
         }
     }
