@@ -411,11 +411,8 @@ html, body {
   color: white;
   margin-bottom: 24px;
 }
-.fill-tank .container .circle-content .circle .icon {
-  width: 47px;
-  height: 22px;
-  border: 3px solid #FFFFFF;
-  border-radius: 2px;
+.fill-tank .container .circle-content .circle .icon img {
+  width: 50px;
 }
 .fill-tank .container .circle-content .circle .txt {
   font-weight: 500;
@@ -815,9 +812,8 @@ html, body {
     color: white;
     margin-bottom: 24px;
   }
-  .fill-tank .container .circle-content .circle .icon {
-    width: 34px;
-    height: 18px;
+  .fill-tank .container .circle-content .circle .icon img {
+    width: 35px;
   }
   .fill-tank .container .circle-content .circle .txt {
     font-size: 30px;
